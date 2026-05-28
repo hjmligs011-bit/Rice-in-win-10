@@ -1,0 +1,20 @@
+Terminal
+winget install Microsoft.WindowsTerminal
+
+Fastfetch
+winget install Fastfetch-cli.Fastfetch
+
+Btop
+winget install btop4win.btop4win
+
+Oh My Posh
+winget install JanDeDobbeleer.OhMyPosh
+
+Komorebi
+winget install LGUG2Z.komorebi
+
+Flow Launcher
+winget install Flow-Launcher.Flow-Launcher
+
+Yasb
+winget install amN.yasb
