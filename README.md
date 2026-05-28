@@ -10,21 +10,6 @@ A fully customized Windows 10 setup focused on:
 
 ---
 
-# 📸 Preview
-
-Add screenshots here later:
-
-```txt
-screenshots/
-```
-
-Example:
-- desktop.png
-- terminal.png
-- fastfetch.png
-
----
-
 # ✨ Features
 
 - 🖥️ Customized Windows 10
