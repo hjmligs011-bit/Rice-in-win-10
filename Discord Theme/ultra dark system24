@@ -1,0 +1,309 @@
+/**
+ * @name system24 ALL BLACK
+ * @description ultra dark system24 preset with gray selection
+ * @author miguel
+ * @version 3.0
+*/
+
+@import url('https://refact0r.github.io/system24/build/system24.css');
+
+body {
+
+    --font: 'JetBrainsMono Nerd Font';
+    --code-font: 'JetBrainsMono Nerd Font';
+
+    font-weight: 300;
+    letter-spacing: -0.05ch;
+
+    --gap: 10px;
+    --divider-thickness: 2px;
+    --border-thickness: 1px;
+    --border-hover-transition: 0.15s ease;
+
+    --animations: on;
+    --list-item-transition: 0.15s ease;
+    --dms-icon-svg-transition: 0.25s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: on;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: off;
+
+    --dms-icon-color-before: #8d8d8d;
+    --dms-icon-color-after: #ffffff;
+
+    --custom-dms-background: color;
+
+    --dms-background-color:
+        linear-gradient(
+            145deg,
+            #000000,
+            #080808,
+            #101010
+        );
+
+    --background-image: off;
+
+    --transparency-tweaks: on;
+    --remove-bg-layer: off;
+
+    --panel-blur: on;
+    --blur-amount: 18px;
+
+    --bg-floating: rgba(0,0,0,0.94);
+
+    --small-user-panel: on;
+
+    --unrounding: on;
+
+    --custom-spotify-bar: on;
+
+    --ascii-titles: on;
+    --ascii-loader: cats;
+
+    --panel-labels: on;
+    --label-color: #7d7d7d;
+    --label-font-weight: 700;
+}
+
+:root {
+
+    --colors: on;
+
+    --text-0: #000000;
+
+    --text-1: #ffffff;
+    --text-2: #d8d8d8;
+    --text-3: #b5b5b5;
+    --text-4: #808080;
+    --text-5: #555555;
+
+    --bg-1: #111111;
+    --bg-2: #0a0a0a;
+    --bg-3: #050505;
+    --bg-4: #000000;
+
+    --hover:
+        rgba(255,255,255,0.05);
+
+    --active:
+        rgba(180,180,180,0.14);
+
+    --active-2:
+        rgba(200,200,200,0.18);
+
+    --message-hover:
+        rgba(255,255,255,0.03);
+
+    --accent-1: #d0d0d0;
+    --accent-2: #b0b0b0;
+    --accent-3: #8e8e8e;
+    --accent-4: #707070;
+    --accent-5: #4f4f4f;
+
+    --accent-new: #a0a0a0;
+
+    --mention:
+        linear-gradient(
+            to right,
+            rgba(220,220,220,0.08) 40%,
+            transparent
+        );
+
+    --mention-hover:
+        linear-gradient(
+            to right,
+            rgba(220,220,220,0.04) 40%,
+            transparent
+        );
+
+    --reply:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,0.05) 40%,
+            transparent
+        );
+
+    --reply-hover:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,0.03) 40%,
+            transparent
+        );
+
+    --online: #c0c0c0;
+    --idle: #8e8e8e;
+    --dnd: #707070;
+    --streaming: #9e9e9e;
+    --offline: #4d4d4d;
+
+    --border-light:
+        rgba(255,255,255,0.05);
+
+    --border:
+        rgba(255,255,255,0.08);
+
+    --border-hover:
+        #9f9f9f;
+
+    --button-border: transparent;
+
+    --red-1: #c8c8c8;
+    --red-2: #b5b5b5;
+    --red-3: #9f9f9f;
+    --red-4: #808080;
+    --red-5: #666666;
+
+    --green-1: #cfcfcf;
+    --green-2: #bdbdbd;
+    --green-3: #9f9f9f;
+    --green-4: #7e7e7e;
+    --green-5: #5f5f5f;
+
+    --blue-1: #d6d6d6;
+    --blue-2: #bcbcbc;
+    --blue-3: #9f9f9f;
+    --blue-4: #7f7f7f;
+    --blue-5: #606060;
+
+    --yellow-1: #d0d0d0;
+    --yellow-2: #b0b0b0;
+    --yellow-3: #949494;
+    --yellow-4: #747474;
+    --yellow-5: #5b5b5b;
+
+    --purple-1: #d7d7d7;
+    --purple-2: #bdbdbd;
+    --purple-3: #a0a0a0;
+    --purple-4: #808080;
+    --purple-5: #5f5f5f;
+}
+
+::selection {
+    background: #7a7a7a !important;
+    color: #ffffff !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
+
+input,
+textarea {
+    background: #050505 !important;
+    border: 1px solid #2e2e2e !important;
+    color: #d0d0d0 !important;
+}
+
+[class*="container"],
+[class*="sidebar"],
+[class*="content"],
+[class*="chat"],
+[class*="members"],
+[class*="panels"] {
+
+    background:
+        rgba(0,0,0,0.92) !important;
+
+    border-color:
+        rgba(255,255,255,0.05) !important;
+}
+
+button {
+    border-radius: 0px !important;
+}
+
+button:hover {
+    background:
+        rgba(255,255,255,0.06) !important;
+}
+
+[class*="modeSelected"] {
+    background:
+        rgba(255,255,255,0.08) !important;
+
+    border-left:
+        2px solid #8a8a8a !important;
+}
+
+[class*="modeUnread"] {
+    border-left:
+        2px solid #5e5e5e !important;
+}
+
+[class*="message"]:hover {
+    background:
+        rgba(255,255,255,0.03) !important;
+}
+
+[class*="panels"] {
+    border-top:
+        1px solid rgba(255,255,255,0.05) !important;
+}
+
+pre,
+code {
+    background:
+        #050505 !important;
+
+    border:
+        1px solid #1f1f1f !important;
+}
+
+[class*="standardSidebarView"] {
+    background:
+        #000000 !important;
+}
+
+[class*="modal"],
+[class*="root"] {
+
+    background:
+        rgba(0,0,0,0.96) !important;
+
+    border:
+        1px solid rgba(255,255,255,0.05) !important;
+}
+
+[class*="member"] {
+    transition: 0.15s ease;
+}
+
+[class*="member"]:hover {
+    background:
+        rgba(255,255,255,0.04) !important;
+}
+
+[class*="searchBar"] {
+    background:
+        #050505 !important;
+
+    border:
+        1px solid #222222 !important;
+}
+
+[class*="barFill"] {
+    background:
+        #9a9a9a !important;
+}
+
+* {
+    border-radius: 0px !important;
+}
